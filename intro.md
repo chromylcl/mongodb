@@ -1,5 +1,7 @@
 # MongoDB
 - MongoDB is basically NoSQL.
+
+
 | Feature        | SQL           | NoSQL (MongoDB)            |
 | -------------- | ------------- | -------------------------- |
 | Schema         | Fixed         | Flexible                   |
