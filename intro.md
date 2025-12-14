@@ -37,3 +37,6 @@ Examples:
 - Analytics
 
 - Social media apps
+
+
+<img width="952" height="538" alt="image" src="https://github.com/user-attachments/assets/44505233-8c30-4691-bda3-abbe0bdfe526" />
