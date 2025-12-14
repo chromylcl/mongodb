@@ -39,4 +39,11 @@ Examples:
 - Social media apps
 
 
+
+
+
+<img width="994" height="1002" alt="image" src="https://github.com/user-attachments/assets/fed076ab-aca3-40f3-b6ac-9da2f82525be" />
+
+
+
 <img width="952" height="538" alt="image" src="https://github.com/user-attachments/assets/44505233-8c30-4691-bda3-abbe0bdfe526" />
