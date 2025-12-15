@@ -47,3 +47,8 @@ Examples:
 
 
 <img width="952" height="538" alt="image" src="https://github.com/user-attachments/assets/44505233-8c30-4691-bda3-abbe0bdfe526" />
+
+
+
+## Mongoose
+<img width="910" height="912" alt="image" src="https://github.com/user-attachments/assets/665f1072-f15b-4c33-8424-f68ee82fbf10" />
