@@ -52,6 +52,10 @@ Examples:
 
 ## Mongoose
 <img width="910" height="912" alt="image" src="https://github.com/user-attachments/assets/665f1072-f15b-4c33-8424-f68ee82fbf10" />
+
+
+
+
 ```js
 const DB = process.env.DATABASE.replace(
   "<PASSWORD>",
@@ -80,6 +84,9 @@ const toursSchema = new mongoose.Schema({
 });
 const Tour = mongoose.model("Tour", toursSchema);
 ```
+
+
+
 - Firstly, we created a Database Connection using `DB`.
 - Then, we used `connect()` method and then we handled that promise using `then()` .
 - Then we created toursSchema , basically a schema we will use.
