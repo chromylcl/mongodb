@@ -52,3 +52,35 @@ Examples:
 
 ## Mongoose
 <img width="910" height="912" alt="image" src="https://github.com/user-attachments/assets/665f1072-f15b-4c33-8424-f68ee82fbf10" />
+```js
+const DB = process.env.DATABASE.replace(
+  "<PASSWORD>",
+  process.env.DATABASE_PASSWORD
+);
+mongoose
+  .connect(DB, {
+    useNewUrlParser: true,
+    useCreateIndex: true,
+    useFindAndModify: false,
+  })
+  .then((con) => {
+    console.log(con.connections);
+    console.log("DB connection Successful!");
+  });
+const toursSchema = new mongoose.Schema({
+  name: {
+    type: String,
+    required: true,
+  },
+  rating: Number,
+  price: {
+    type: Number,
+    required: true,
+  },
+});
+const Tour = mongoose.model("Tour", toursSchema);
+```
+- Firstly, we created a Database Connection using `DB`.
+- Then, we used `connect()` method and then we handled that promise using `then()` .
+- Then we created toursSchema , basically a schema we will use.
+- Then lastly set up our model `Tour` using `model()` method.
